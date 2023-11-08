@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py"
+version = "0.1.0"
+description = ""
+authors = ["Dmitri Gvozdev <dmitrigvozdev94@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+azure-identity = "^1.15.0"
+azure-storage-blob = "^12.18.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
