@@ -31,7 +31,7 @@ $ch = curl_init($blobUri);
 // Set cURL options
 curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // only for testing, in production you should verify peer
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
 
 // Execute the cURL session
 $response = curl_exec($ch);
